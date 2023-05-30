@@ -45,7 +45,7 @@ cd .. # Gets out of the directory you are in
 ## How do you run a python file?
 1. Make sure that you are using the Shell 🐚.
 1. Verify that you are in the folder containing the file you want to run. You can use `pwd` to check the current folder and `ls` to see the files in the current folder.
-2. Run `python <file_name.py>` (ex: `python session_1.py`).
+2. Run `python <file_name.py>` (ex: `python exercises_1.py`).
 
 ---
 
