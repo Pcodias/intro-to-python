@@ -2,36 +2,87 @@
 
 ## Section A
 # 1. Ask for the user's name, if they are called "Bob", print "Welcome Bob!".
-
+if name == "Bob"
+print("Hello Bob")
 
 
 # 2. Ask for the user's name, if they are not called "Alice", print "You're not Alice!".
-
+if name != "Alice":
+    print("You are not Alice")
 
 
 # 3. Ask the user for a password, if they enter the password "qwerty123", print "You have successfully logged in". 
 #   If they get it wrong, print "Password failure".
+password = input("Enter the password: ")
 
+if password == "qwerty123":
+    print("You have successfully logged in.")
+else:
+    print("Password failure.")
 
 
 # 4. Ask the user to enter a number, if the number is even, print "Even", otherwise print "Odd".
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
 
 
 
 # 5. Ask the user for 2 different numbers, if the total of the two numbers is over 21, print "Bust" otherwise print "Safe"
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+
+total = number1 + number2
+
+if total > 21:
+    print("Bust")
+else:
+    print("Safe")
 
 
 
 # 6. Ask the user to enter the length and width of a shape and check if it is a square or not.
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+
+if length == width:
+    print("It is a square.")
+else:
+    print("It is not a square.")
 
 
 
 # 7. You have had a great year and are going to offer a bonus of 10% to any employee who has a service of over 3 years. 
 #   Ask the user to input their current salary and years of service and print out their salary and their bonus or "No bonus" if they are not receiving one.
+salary = float(input("Enter your current salary: "))
+years_of_service = int(input("Enter your years of service: "))
+
+if years_of_service > 3:
+    bonus = salary * 0.1
+    total_salary = salary + bonus
+    print("Your salary: $", salary)
+    print("Bonus: $", bonus)
+    print("Total salary with bonus: $", total_salary)
+else:
+    print("Your salary: $", salary)
+    print("No bonus")
 
 
 
 # 8. Take a whole number input, if it's positive, print out the number cubed, if it is a negative, print out half its value.
+number = int(input("Enter a whole number: "))
+
+if number > 0:
+    result = number ** 3
+    print("Number cubed:", result)
+elif number < 0:
+    result = number / 2
+    print("Half of the number:", result)
+else:
+    print("The number is zero.")
 
 
 
