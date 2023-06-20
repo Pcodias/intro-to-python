@@ -53,15 +53,9 @@ print(fruits)
 
 ## Section B
 # 1. Loop through the list you created in section A and print each item out.
-names = ["Alice", "Bob", "Charlie"]
-
-for person in names:
-    print(person)
-
-# Alice
-# Bob
-# Charlie
-
+fruits = ["Apples", "Cherries", "Pears", "Pineapple", "Peaches", "Mango"]
+for fruit in fruits:
+print(fruit)
 
 # 2. Print the numbers 1 to 100 (including the number 100).
 for number in range(1, 101):
@@ -71,17 +65,17 @@ for number in range(1, 101):
 
 # 3. Print all odd numbers from 1 to 100.
 for number in range(1, 101):
-    if number % 2 != 0:
+    if number % 2:
         print(number)
 
 
 
 # 4. The modern olympics started in 1896, print the years they have been held (bonus points to skip the years it has not been held 1916, 1940, 1944, 2020).
 excluded_years = [1916, 1940, 1944, 2020]
-
-for year in range(1896, 2023, 4):
-    if year not in excluded_years:
-        print(year)
+not_held = [1916, 1940, 1944, 2020]
+for olympic_years in range(1896, 2023, 4):
+if olympic_years not in not_held:
+print(olympic_years)
 
 
 
