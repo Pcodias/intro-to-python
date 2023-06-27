@@ -193,35 +193,29 @@ while player_score < 2 and computer_score < 2:
 
     # Compare choices and determine the winner
     if player_choice == computer_choice:
-        print("It's a tie! Let's play again.")
+  
     elif player_choice == "rock":
         if computer_choice == "scissors":
-            print("You win! Rock beats Scissors.")
+            print("You win!")
             player_score += 1
         else:
-            print("You lose! Paper beats Rock.")
+            print("You lose!")
             computer_score += 1
     elif player_choice == "paper":
         if computer_choice == "rock":
-            print("You win! Paper beats Rock.")
+            print("You win!")
             player_score += 1
         else:
-            print("You lose! Scissors beats Paper.")
+            print("You lose!")
             computer_score += 1
     elif player_choice == "scissors":
         if computer_choice == "paper":
-            print("You win! Scissors beats Paper.")
+            print("You win!")
             player_score += 1
         else:
-            print("You lose! Rock beats Scissors.")
+            print("You lose!")
             computer_score += 1
     else:
         print("Invalid choice. Please choose either Rock, Paper, or Scissors.")
 
-# Game ends, determine the final winner
-print("------------------------------")
-print("Final Scores:")
-print("Player Score: ", player_score)
-print("Computer Score: ", computer_score)
-print("------------------------------")
 
