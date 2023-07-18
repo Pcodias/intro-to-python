@@ -8,7 +8,7 @@ for x in open("numbers.txt"):
 print(total)
 
 #Option 2
-f = open("numbers.txt", "r")
+f = open("text_files/numbers.txt", "r")
 sum = 0 
 for x in f:
   x = int(x)

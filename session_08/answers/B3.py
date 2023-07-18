@@ -30,10 +30,11 @@ alphabet = {
     24: "X",
     25: "Y",
     26: "Z"
-}
 
-word = ""
-for x in open("secret.txt", "r"):
-    x = int(x)
-    word = word + alphabet[x]
-print(word)
+secret = ""
+f=open (text_files/"secret.txt", "r")
+for x in f:
+  x=int(x)
+  secret=secret + alphabet[x]
+  print(secret)
+  

@@ -8,9 +8,8 @@ for x in open("austen.txt"):
 print(total)
 
 #Option 2 
-f = open("austen.txt", "r")
-count = 0
-for x in f:
-  count += 1
-
-print(count)
+total=0
+file = open (text_files/"austen.txt, "r"")"
+for line in file:
+  total +=1
+  print(total)
