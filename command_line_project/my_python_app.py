@@ -1,6 +1,6 @@
 import random
 
-def guess_number_game():
+def number_guessing_game():
     secret_number = random.randint(1, 100)
 
     start = 1
@@ -24,4 +24,4 @@ def guess_number_game():
     for category in categories:
         print(category)
 
-guess_number_game()
+number_guessing_game()
