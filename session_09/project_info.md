@@ -1,6 +1,6 @@
 # Command-line project
 
-Please copy the kanban board from [here](https://github.com/users/sergiuHudrea/projects/5) and follow the **"Set up your project"** ticket from the Todo column. **Make sure you tick** the **"Draft issues will be copied if selected" box**.
+Please copy the kanban board from [[here](https://github.com/users/sergiuHudrea/projects/5/views/1?pane=issue&itemId=24981502)](https://github.com/users/sergiuHudrea/projects/5) and follow the **"Set up your project"** ticket from the Todo column. **Make sure you tick** the **"Draft issues will be copied if selected" box**.
 
 **DEADLINE for project submission:** one month from the last session.
 
